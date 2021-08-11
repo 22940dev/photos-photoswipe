@@ -1,7 +1,7 @@
 $('html, body').css('background', 'black');
 
 // CHANGE THESE VALUES TO SUITE YOUR OWN SITE
-var numberOfImages = 4,
+var numberOfImages = 5,
     pathToImages = 'images/',
     counter = true;
 // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
