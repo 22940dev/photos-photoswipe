@@ -1,7 +1,7 @@
 $('html, body').css('background', 'black');
 
 // CHANGE THESE VALUES TO SUITE YOUR OWN SITE
-var numberOfImages = 5,
+var numberOfImages = 4,
     pathToImages = 'images/',
     counter = true;
 // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -16,19 +16,19 @@ var numberOfImages = 5,
 
             if (i < 10) { // just dealing with some zero padding and file naming issues.
                 daPicturz.push({
-                    url: pathToImages + '00' + i + '.jpg',
+                    url: pathToImages + '00' + i + '.JPG',
                     caption: ''
                 });
             }
             else if (i > 9 && i < 100) {
                 daPicturz.push({
-                    url: pathToImages + '0' + i + '.jpg',
+                    url: pathToImages + '0' + i + '.JPG',
                     caption: ''
                 });
             }
             else if (i > 99) {
                 daPicturz.push({
-                    url: pathToImages + i + '.jpg',
+                    url: pathToImages + i + '.JPG',
                     caption: ''
                 });
             }
